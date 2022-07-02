@@ -1,0 +1,16 @@
+.input {
+  padding: 20px;
+}
+
+.input--size {
+  margin-top: 22px;
+  display: flex;
+  column-gap: 38px;
+}
+
+@media (max-width: 780px) {
+  .input--size {
+    justify-content: center;
+    display: grid;
+  }
+}

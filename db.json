@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "email": "user_test@mail.com",
+      "password": "$2a$10$nn991wqaW/cux0F9nRbRkeZ0cPE2tqp.i.wAuwNyQbjAd.Hp8.DCa",
+      "name": "Luis",
+      "lastname": "Perez",
+      "rol": "user",
+      "id": 1
+    },
+    {
+      "email": "admin_test@mail.com",
+      "password": "$2a$10$mNJQycHVXfJ/IeGk33Qcye.y5EW46qwCZrT345ReLP9LyNaLr5olq",
+      "name": "Jorge",
+      "lastname": "Loayza",
+      "rol": "admin",
+      "id": 2
+    },
+    {
+      "email": "admin_test2@mail.com",
+      "password": "$2a$10$Uy3tjBnLCeee1fDp5NWt5elDnmrH.XGGJdFbZQdSzHv37mbK6dB9K",
+      "name": "Juan",
+      "lastname": "Loayza",
+      "rol": "admin",
+      "id": 3
+    },
+    {
+      "email": "user_test2@mail.com",
+      "password": "$2a$10$dsBJwMroPFgK8ZOjF5fTfOPQLwXxehY9UUZewri9bCW6kkfwVJEW.",
+      "name": "Juan",
+      "lastname": "Loayza",
+      "rol": "user",
+      "id": 4
+    }
+  ],
+  "reservations": [
+    {
+      "title": "Machala",
+      "description": "Hotel",
+      "active": true,
+      "time": "2022/07/01",
+      "idUser": 1,
+      "id": 1
+    },
+    {
+      "title": "Cuenca",
+      "description": "Casa",
+      "active": true,
+      "time": "2022/07/02",
+      "idUser": 1,
+      "id": 2
+    },
+    {
+      "title": "Casa",
+      "description": "xxxx",
+      "active": true,
+      "time": "2022/07/03",
+      "idUser": 1,
+      "id": 3
+    },
+    {
+      "title": "Santo domingo",
+      "description": "xxxxx",
+      "active": true,
+      "time": "2022/07/08",
+      "idUser": 4,
+      "id": 4
+    },
+    {
+      "title": "wqqw",
+      "description": "qwqw",
+      "active": true,
+      "time": "2022/07/19",
+      "idUser": 1,
+      "id": 5
+    },
+    {
+      "id": 6,
+      "title": "wqwwq",
+      "description": "www",
+      "active": true,
+      "time": "2022/07/12",
+      "idUser": 1
+    }
+  ]
+}
